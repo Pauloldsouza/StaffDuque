@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+}
+
+main {
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 27px;
+  background-image: linear-gradient(to top, brown, orange);
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  padding: 16px 20px;
+  color: white;
+  background-color: transparent;
+  border: solid 2px white;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+  border: solid 2px white;
+  padding: 18px 25px;
+  border-radius: 8px;
+}
