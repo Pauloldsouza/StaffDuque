@@ -1,7 +1,7 @@
 const staffList = [
   "Akram",
-  "Ali",
   "Alex",
+  "Ali",
   "Ana",
   "Ariana",
   "Bijay",
@@ -15,9 +15,9 @@ const staffList = [
   "Eva",
   "Geovana",
   "Gisa",
+  "Jamaica",
   "Juliana",
   "King",
-  "Jamaica",
   "Letícia",
   "Lucrecia",
   "Mimi",
@@ -35,6 +35,14 @@ const staffList = [
 ];
 
 const Ol = document.querySelector("ol");
+const counter = document.querySelector(".counter");
+
+function showCounter() {
+  const checkedItems = document.querySelectorAll("li.checked").length;
+  counter.textContent = staffList.length - checkedItems;
+}
+
+showCounter();
 
 staffList.forEach((staffMember) => {
   //adiciona os membros a uma lista
@@ -47,6 +55,7 @@ staffList.forEach((staffMember) => {
   checkbox.addEventListener("change", () => {
     li.classList.toggle("checked");
     saveClassList(li);
+    showCounter();
   });
 
   const label = document.createElement("label");
