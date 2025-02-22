@@ -20,8 +20,6 @@ const staffList = [
   "King",
   "Letícia",
   "Lucrecia",
-  "Mimi",
-  "Nadia",
   "Nilton",
   "Paulo",
   "Pawan",
