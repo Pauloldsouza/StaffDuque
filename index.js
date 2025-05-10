@@ -7,7 +7,6 @@ const staffList = [
   "Bijay",
   "Bikash",
   "Binita",
-  "Carina",
   "Carol",
   "Curica",
   "Domi",
@@ -25,10 +24,11 @@ const staffList = [
   "Paulo",
   "Pawan",
   "Regis",
-  // "Rose",
+  "Rose",
   "Subarna",
   "Sudip",
   "Susmita",
+  "Vanessa",
   "Yago",
 ];
 
