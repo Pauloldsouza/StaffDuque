@@ -6,7 +6,6 @@ const staffList = [
   "Ariana",
   "Bijay",
   "Bikash",
-  "Binita",
   "Carol",
   "Curica",
   "Domi",
