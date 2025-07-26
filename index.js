@@ -13,6 +13,7 @@ const staffList = [
   "Elivelton",
   "Erica",
   "Eva",
+  "Fran",
   "Geovana",
   "Gisa",
   "Jamaica",
